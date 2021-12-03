@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
     height: 400px;
-    z-index: 1;
+    z-index: 0;
     position: relative;
 `;
 

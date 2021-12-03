@@ -13,7 +13,6 @@ export const HeaderTextWrap = styled.div`
     width: 90%;
     border-radius: 10px;
     margin-top: -80px;
-    position: sticky;
     z-index: 10;
     background-color: #fff;
     padding: 30px;
