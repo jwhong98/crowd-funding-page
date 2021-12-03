@@ -22,7 +22,6 @@ const Main = () => {
             <HeaderCard />
             <ProgressCard />
             <DescriptionCard />
-            <Plans />
         </>
     )
 }
