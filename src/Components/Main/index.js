@@ -4,7 +4,6 @@ import HeroSection from '../HeroSection';
 import HeaderCard from '../HeaderCard';
 import ProgressCard from '../ProgressCard';
 import DescriptionCard from '../DescriptionCard';
-import Plans from '../Plans';
 import Sidebar from '../Sidebar';
 
 const Main = () => {

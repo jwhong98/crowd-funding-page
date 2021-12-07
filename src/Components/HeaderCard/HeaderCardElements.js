@@ -51,6 +51,7 @@ export const HeaderButton = styled.button`
     font-weight: 700;
     color: #fff;
     background-color: hsl(176, 50%, 47%);
+    cursor: pointer;
 `;
 
 export const Bookmark = styled.img`

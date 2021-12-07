@@ -1,6 +1,20 @@
 import React from 'react'
 import Plans from '../Plans';
+import data from '../Plans/Data.json';
+
 import { DescriptionContainer, DescriptionWrapper, Title, Content } from './DescriptionCardElements';
+
+const createPlans = (info)=> {
+    return (
+        <Plans 
+            key={info.id}
+            item={info.item}
+            donation={info.donation}
+            description={info.description}
+            left={info.left}
+        />
+    )
+}
 
 const DescriptionCard = () => {
     return (
@@ -12,7 +26,7 @@ const DescriptionCard = () => {
                 helping you stay focused on the task at hand.</Content>
                 <Content>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer to allow 
                 notepads, pens, and USB sticks to ve stored under the stand.</Content>
-                <Plans />
+                {data.map(createPlans)}
             </DescriptionWrapper>
         </DescriptionContainer>
     )

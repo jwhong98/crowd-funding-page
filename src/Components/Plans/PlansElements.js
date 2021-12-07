@@ -55,4 +55,5 @@ export const PlansButton = styled.button`
     background-color: hsl(176, 50%, 47%);
     color: #fff;
     font-weight: 700;
+    cursor: pointer;
 `;
