@@ -22,17 +22,20 @@ export const HeaderImg = styled.img`
     margin-bottom: 30px;
     width: 5rem;
     margin-top: -75px;
+    background-color: transparent;
 `;
 
 export const HeaderTitle = styled.h1`
     text-align: center;
     margin-bottom: 20px;
+    background-color: #fff;
 `;
 
 export const HeaderDescription = styled.p`
     text-align: center;
     margin-bottom: 30px;
     color: #4E4E4E;
+    background-color: #fff;
 `;
 
 export const ButtonWrap = styled.div`
@@ -40,6 +43,7 @@ export const ButtonWrap = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    background-color: #fff;
 `;
 
 export const HeaderButton = styled.button`

@@ -19,10 +19,12 @@ export const DescriptionWrapper = styled.div`
 export const Title = styled.h1`
     margin-bottom: 30px;
     font-size: 1.5rem;
+    background-color: #fff;
 `;
 
 export const Content = styled.p`
     margin-bottom: 30px;
     color: #4E4E4E;
     line-height: 1.5;
+    background-color: #fff;
 `;
